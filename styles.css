@@ -35,7 +35,11 @@ p {
     margin-top: 20px;
     padding: 20px;
 }
-
+a{
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+    cursor: pointer;
+}
 /* Word Card */
 .word-card {
     width: 260px;
@@ -51,7 +55,6 @@ p {
     box-shadow: 0 4px 8px #b99a79;
 
 }
-
 .card-inner {
     width: 100%;
     height: 100%;
@@ -133,7 +136,7 @@ p {
 
     .word-card {
         width: 220px;
-        height: 220px;
+        height: 260px;
     }
 
     h1 {
@@ -151,8 +154,8 @@ p {
 
 @media (max-width: 480px) {
     .word-card {
-        width: 180px;
-        height: 180px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-front {

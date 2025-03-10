@@ -61,7 +61,6 @@ function createWordCards() {
             </div>
         `;
 
-       
         card.addEventListener("click", () => {
             card.classList.toggle("flipped");
             card.classList.add("disabled");
@@ -98,3 +97,4 @@ function displayViewedWords() {
     });
 }
 createWordCards();
+localStorage.clear();

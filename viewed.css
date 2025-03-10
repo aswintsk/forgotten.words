@@ -25,7 +25,11 @@ p {
     color: #5a4a3a;
     margin-top: 20px;
 }
-
+a{
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+    cursor: pointer;
+}
 /* Viewed Words Container */
 #viewed-words-container {
     display: flex;
